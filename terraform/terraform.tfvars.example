@@ -1,0 +1,7 @@
+cloud_id                 = "id"
+folder_id                = "folder_id"
+zone                     = "ru-central1-a"
+image_id                 = "id_image"
+public_key_path          = "pub"
+subnet_id                = "subnet_id"
+service_account_key_file = "key.json"
