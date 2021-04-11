@@ -2,7 +2,6 @@
     "builders": [
     {
     "type": "yandex",
-    "service_account_key_file": "{{user `service_account_key_file`}}",
     "token": "AgAAAAAekrc-AATuwT3ybTLH2ks_g946xppBHi8",
     "folder_id": "b1gcp6bd48bcmosa9bs0",
     "image_name": "reddit-app-base-{{timestamp}}",
