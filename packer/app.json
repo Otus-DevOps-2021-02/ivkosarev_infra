@@ -9,6 +9,7 @@
     "source_image_family": "ubuntu-1604-lts",
     "zone": "ru-central1-a",
     "ssh_username": "ubuntu",
+    "ssh_password": "{{user `ssh_password`}}",
     "use_ipv4_nat": "true",
     "platform_id": "{{user `platform_id`}}"
     }
