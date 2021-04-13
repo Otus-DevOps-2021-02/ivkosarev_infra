@@ -8,6 +8,7 @@
             "image_name": "reddit-db-base-{{timestamp}}",
             "image_family": "reddit-db-base",
             "ssh_username": "ubuntu",
+            "ssh_password": "{{user `ssh_password`}}",
             "platform_id": "{{user `platform_id`}}",
             "use_ipv4_nat": "true",
             "zone": "ru-central1-a"
