@@ -1,0 +1,25 @@
+{
+    "builders": [
+        {
+            "type": "yandex",
+            "token": "AgAAAAAekrc-AATuwT3ybTLH2ks_g946xppBHi8",
+            "folder_id": "b1gcp6bd48bcmosa9bs0",
+            "source_image_family": "ubuntu-1604-lts",
+            "image_name": "reddit-db-base-{{timestamp}}",
+            "image_family": "reddit-db-base",
+            "ssh_username": "ubuntu",
+            "ssh_password": "{{user `ssh_password`}}",
+            "platform_id": "{{user `platform_id`}}",
+            "use_ipv4_nat": "true",
+            "zone": "ru-central1-a"
+        }
+    ],
+    "provisioners": [
+        {
+            "type": "shell",
+            "script": "scripts/install_mongodb.sh",
+            "execute_command": "sudo {{.Path}}"
+        }
+    ]
+}
+

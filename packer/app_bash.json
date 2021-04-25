@@ -1,0 +1,18 @@
+{
+    "builders": [
+    {
+    "type": "yandex",
+    "token": "AgAAAAAekrc-AATuwT3ybTLH2ks_g946xppBHi8",
+    "folder_id": "b1gcp6bd48bcmosa9bs0",
+    "image_name": "reddit-app-base-{{timestamp}}",
+    "image_family": "reddit-app-base",
+    "source_image_family": "ubuntu-1604-lts",
+    "zone": "ru-central1-a",
+    "ssh_username": "ubuntu",
+    "ssh_password": "{{user `ssh_password`}}",
+    "use_ipv4_nat": "true",
+    "platform_id": "{{user `platform_id`}}"
+    }
+  
+    ]
+    }
