@@ -28,9 +28,9 @@ variable instances_count {
 }
 variable app_disk_image {
   description = "Disk image for reddit app"
-  default     = "fd8d46kf97aq01oc85eh"
+  default     = "fd8krk8rve1es57fscki"
 }
 variable db_disk_image {
   description = "Disk image for reddit db"
-  default     = "fd89um40l5grefg4e43g"
+  default     = "fd8pto5297gpoei4dpti"
 }
