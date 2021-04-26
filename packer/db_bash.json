@@ -13,11 +13,5 @@
             "use_ipv4_nat": "true",
             "zone": "ru-central1-a"
         }
-    ],
-    "provisioners": [
-    {
-        "type": "ansible",
-        "playbook_file": "ansible/packer_db.yml"
-    }
     ]
-    }
+}

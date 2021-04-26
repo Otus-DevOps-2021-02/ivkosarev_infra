@@ -13,11 +13,6 @@
     "use_ipv4_nat": "true",
     "platform_id": "{{user `platform_id`}}"
     }
-    ],
-    "provisioners": [
-    {
-        "type": "ansible",
-        "playbook_file": "ansible/packer_app.yml"
-    }
+  
     ]
     }
